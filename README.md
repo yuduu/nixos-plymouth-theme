@@ -34,7 +34,7 @@ in
 {
   boot.plymouth = {
     enable = true;
-    theme = "nixos";
+    theme = "linux-penguin";
     themePackages = [ plymouth-nixos ];
   };
 }
