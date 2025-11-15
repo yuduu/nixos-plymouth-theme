@@ -19,8 +19,8 @@ stdenv.mkDerivation {
   };
 
   installPhase = ''
-    mkdir -p $out/share/plymouth/themes/nixos
-    cp -r * $out/share/plymouth/themes/nixos/
+    mkdir -p $out/share/plymouth/themes/linux-penguin
+    cp -r linux-penguin/* $out/share/plymouth/themes/linux-penguin/
   '';
 }
 ```
