@@ -15,7 +15,7 @@ stdenv.mkDerivation {
     owner = "yuduu";
     repo = "nixos-plymouth-theme";
     rev = "main";  # commit hash
-    sha256 = "sha256-…";
+    sha256 = "sha256-0000000000000000000000000000000000000000000000000000";
   };
 
   installPhase = ''
